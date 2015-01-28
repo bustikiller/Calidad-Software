@@ -1,14 +1,16 @@
 package com.github.davidmoten.lwjgl;
 
+//este es otro comentario
 public class Sound {
-	private final int soundIndex;
 
-	Sound(int soundIndex) {
-		super();
-		this.soundIndex = soundIndex;
-	}
+    private final int soundIndex;
 
-	public int getSoundIndex() {
-		return soundIndex;
-	}
+    Sound(int soundIndex) {
+        super();
+        this.soundIndex = soundIndex;
+    }
+
+    public int getSoundIndex() {
+        return soundIndex;
+    }
 }
