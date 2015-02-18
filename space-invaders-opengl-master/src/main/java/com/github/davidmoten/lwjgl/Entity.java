@@ -30,7 +30,7 @@
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 package com.github.davidmoten.lwjgl;
-
+/*nuevo comentario para RamaDaniel*/
 import java.awt.Rectangle;
 
 /**
