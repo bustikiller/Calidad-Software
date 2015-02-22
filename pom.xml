@@ -28,8 +28,13 @@
                 <artifactId>maven-pmd-plugin</artifactId>
                 <version>3.4</version>
             </plugin>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>simian-2.2.24</artifactId>
+                <version>2.2.24</version>
+            </plugin>
         </plugins>
-        <report>maven-simian-plugin</report>
+
     </reporting>
     <build>
         <plugins>
@@ -79,7 +84,8 @@
             </plugin>
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
-                <artifactId>simian-maven-plugin</artifactId>
+                <artifactId>simian-2.2.24</artifactId>
+                <version>2.2.24</version>
             </plugin>
         </plugins>
     </build>
